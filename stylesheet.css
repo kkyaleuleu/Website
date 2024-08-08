@@ -1,0 +1,122 @@
+/* メニュー項目 */
+nav ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;/* liタグの箇条書きの点を消す */
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  border-bottom: 10px solid transparent;/* 通常時の透明なボーダー ※文字が動くのを防ぐため */
+}
+
+nav a {
+  text-decoration: none;/* リンクの架線を消す */
+  color: #333;
+  font-style: oblique; /* フォントを斜字にする */
+  font-weight: bold; /* フォントを太字にする */
+  font-family: serif;
+}
+
+nav li:hover { 
+border-bottom: 3px solid #FF3399;/* ホバー時のテキストの色を指定 */
+}
+
+/* オーバーレイ画像 */
+.main img {
+  width: 100%;
+  height: auto; /* 縦横比を維持する */
+  display: block; /* 余白をなくすためにブロック要素にする */
+}
+
+/* NEWS一覧 */
+.sub_ttl {
+  color: #333;
+  font-weight: bold; /* フォントを太字にする */
+  font-style: oblique;;
+  font-family: serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    font-family: serif;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.news {
+  padding: 30px 0;
+}
+
+.inner {
+  width: 80%;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 65px 0 100px;
+}
+
+.sub_ttl {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* ここからがニュース記事のCSS */
+.news_list {
+  margin: 0 5%;
+}
+
+.news_list_item {
+  padding: 25px 0;
+  border-bottom: 1px solid #E6E6E6;
+}
+
+/* MUSIC VIDEO一覧 */
+.sub_ttl2 {
+  color: #333;
+  font-weight: bold; /* フォントを太字にする */
+  font-style: oblique;;
+  font-family: serif;
+}
+
+/* FAN CLUB */
+.sub_ttl3 {
+  color: #333;
+  font-weight: bold; /* フォントを太字にする */
+  font-style: oblique;;
+  font-family: serif;
+}
+
+.none {
+  color: #333;
+  font-weight: bold; /* フォントを太字にする */
+  font-style: oblique;;
+  font-family: serif;
+}
+
+nav2 ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;/* liタグの箇条書きの点を消す */
+}
+
+nav2 li {
+  display: inline-block;
+  margin: 0 10px;
+  border-bottom: 10px solid transparent;/* 通常時の透明なボーダー ※文字が動くのを防ぐため */
+}
+
+nav2 a {
+  text-decoration: none;/* リンクの架線を消す */
+  color: #333;
+  font-size: 15px;
+  font-style: oblique; /* フォントを斜字にする */
+  font-weight: bold; /* フォントを太字にする */
+  font-family: serif;
+}

@@ -1,0 +1,54 @@
+/* メニュー項目 */
+nav ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;/* liタグの箇条書きの点を消す */
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+  border-bottom: 10px solid transparent;/* 通常時の透明なボーダー ※文字が動くのを防ぐため */
+}
+
+nav a {
+  text-decoration: none;/* リンクの架線を消す */
+  color: #333;
+  font-style: oblique; /* フォントを斜字にする */
+  font-weight: bold; /* フォントを太字にする */
+  font-family: serif;
+}
+
+nav li:hover { 
+border-bottom: 3px solid #FF3399;/* ホバー時のテキストの色を指定 */
+}
+
+/* サブタイトル */
+.sub_ttl {
+  color: #333;
+  font-weight: bold; /* フォントを太字にする */
+  font-style: oblique;;
+  font-family: serif;
+}
+
+/* プロフィール画像一覧 */
+nav2 ul {
+  text-align: center;
+  padding: 0;
+  list-style: none;/* liタグの箇条書きの点を消す */
+}
+
+nav2 li {
+  display: inline-block;
+  margin: 0 10px;
+  border-bottom: 10px solid transparent;/* 通常時の透明なボーダー ※文字が動くのを防ぐため */
+}
+
+nav2 a {
+  text-decoration: none;/* リンクの架線を消す */
+  color: #333;
+  font-size: 15px;
+  font-style: oblique; /* フォントを斜字にする */
+  font-weight: bold; /* フォントを太字にする */
+  font-family: serif;
+}
