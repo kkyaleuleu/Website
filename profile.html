@@ -10,42 +10,74 @@
   <body>
     <div class="header">
       <div style="text-align:center">
-      <img src="LOVEME_logo.jpg" height= "90" alt="ロゴ">
-      <nav>
+      <div style="text-align:center">
+       <a href="index.html" class="anchor_link"><img src="LOVEME_logo.jpg" height="90" alt="ロゴ"></a>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger-menu">
+         <span></span>
+         <span></span>
+         <span></span>
+        </label>
+    <nav>
           <ul>
-            <li><a href="#" class="anchor_link">NEWS</a></li>
+            <li><a href="index.html#news" class="anchor_link">NEWS</a></li>
             <li><a href="#" class="anchor_link">PROFILE</a></li>
             <li><a href="#" class="anchor_link">DISCOGRAPHY</a></li>
             <li><a href="#" class="anchor_link">SCHEDULE</a></li>
             <li><a href="#" class="anchor_link">SHOP</a></li>
           </ul>
         </nav>
+    </nav>
+    </div>
     </div>
 
     <div class="main">
-      <div style="text-align:center">
-        <h2 class="sub_ttl">PROFILE<h2/>
-      <nav2>
-            <li><img src="Rui_1.JPG" height= "400" alt="Rui"></li>
-            <li><img src="Ami_1.JPG" height= "400" alt="Rui"></li>
-            <li><img src="Kana_1.JPG" height= "400" alt="Rui"></li>
-            <li><img src="Natsumi_1.JPG" height= "400" alt="Rui"></li>
-            <li><img src="Karen_1.JPG" height= "400" alt="Rui"></li>
-            <li><img src="Chiho_1.JPG" height= "400" alt="Rui"></li>
-      </nav2>
+  <div style="text-align:center">
+    <h2 class="sub_ttl">PROFILE</h2>
+    <nav2>
+      <ul>
+        <li><a href="#popup1"><img src="Rui_1.JPG" height="400" alt="Rui"></a></li>
+        <li><a href="#popup2"><img src="Ami_1.JPG" height="400" alt="Ami"></a></li>
+        <li><a href="#popup3"><img src="Kana_1.JPG" height="400" alt="Kana"></a></li>
+        <li><a href="#popup4"><img src="Natsumi_1.JPG" height="400" alt="Natsumi"></a></li>
+        <li><a href="#popup5"><img src="Karen_1.JPG" height="400" alt="Karen"></a></li>
+        <li><a href="#popup6"><img src="Chiho_1.JPG" height="400" alt="Chiho"></a></li>
+      </ul>
+    </nav2>
+  </div>
+</div>
 
-      <p>メインです</p>
-
-    </div>
-
-    
-
+<!-- ポップアップ用のHTML -->
+<div id="popup1" class="overlay">
+  <a href="#" class="close">×</a>
+  <img src="Rui_1.JPG" class="popup-content">
+</div>
+<div id="popup2" class="overlay">
+  <a href="#" class="close">×</a>
+  <img src="Ami_1.JPG" class="popup-content">
+</div>
+<div id="popup3" class="overlay">
+  <a href="#" class="close">×</a>
+  <img src="Kana_1.JPG" class="popup-content">
+</div>
+<div id="popup4" class="overlay">
+  <a href="#" class="close">×</a>
+  <img src="Natsumi_1.JPG" class="popup-content">
+</div>
+<div id="popup5" class="overlay">
+  <a href="#" class="close">×</a>
+  <img src="Karen_1.JPG" class="popup-content">
+</div>
+<div id="popup6" class="overlay">
+  <a href="#" class="close">×</a>
+  <img src="Chiho_1.JPG" class="popup-content">
+</div>
 
     <div class="footer">
       <div style="text-align:center">
-    　<footer>
-　　　　　<p>フッターです</p>
-　　　 </footer>
+     <footer>
+      <p></p>
+     </footer>
     </div>
   </body>
 </html>
