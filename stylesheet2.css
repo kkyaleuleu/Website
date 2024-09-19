@@ -61,14 +61,6 @@ nav li:hover {
   }
 }
 
-/* サブタイトル */
-.sub_ttl {
-  color: #333;
-  font-weight: bold; /* フォントを太字にする */
-  font-style: oblique;;
-  font-family: serif;
-}
-
 /* プロフィール画像一覧 */
 nav2 ul {
   display: flex;
